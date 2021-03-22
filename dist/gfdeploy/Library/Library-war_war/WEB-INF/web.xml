@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1"  xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_3_1.xsd">
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    
+   
+    <servlet>
+        <servlet-name>Reader</servlet-name>
+        <servlet-class>com.library.servlet.ReaderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Reader</servlet-name>
+        <url-pattern>/Reader</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Session</servlet-name>
+        <servlet-class>com.library.session.SessionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Session</servlet-name>
+        <url-pattern>/Session</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Libraryan</servlet-name>
+        <servlet-class>com.library.servlet.LibraryanServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Libraryan</servlet-name>
+        <url-pattern>/Libraryan</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Registration</servlet-name>
+        <servlet-class>com.library.servlet.RegistrationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Registration</servlet-name>
+        <url-pattern>/Registration</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ImageServlet</servlet-name>
+        <servlet-class>com.library.servlet.ImageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ImageServlet</servlet-name>
+        <url-pattern>/ImageServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>PDF</servlet-name>
+        <servlet-class>com.library.servlet.PDFServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PDF</servlet-name>
+        <url-pattern>/PDF</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Manager</servlet-name>
+        <servlet-class>com.library.servlet.ManagerServlet</servlet-class>
+        <multipart-config>
+            <max-file-size>10485760</max-file-size>
+            <max-request-size>20971520</max-request-size>
+            <file-size-threshold>5242880</file-size-threshold>
+        </multipart-config>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Manager</servlet-name>
+        <url-pattern>/Manager</url-pattern>
+    </servlet-mapping>
+</web-app>

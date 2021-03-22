@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/gonch/Documents/NetBeansProjects/Library/Library-ejb/src/java/com/library/servlet/ReaderServlet.java</file>
+            <file>file:/C:/Users/gonch/Documents/NetBeansProjects/Library/Library-ejb/src/java/com/library/validator/LoginValidator.java</file>
+            <file>file:/C:/Users/gonch/Documents/NetBeansProjects/Library/Library-ejb/src/java/com/library/session/SessionServlet.java</file>
+            <file>file:/C:/Users/gonch/Documents/NetBeansProjects/Library/Library-ejb/test/com/library/test/ReaderControllerTest.java</file>
+            <file>file:/C:/Users/gonch/Documents/NetBeansProjects/Library/Library-ejb/src/java/com/library/facades/AbstractFacade.java</file>
+            <file>file:/C:/Users/gonch/Documents/NetBeansProjects/Library/Library-ejb/src/conf/META-INF/glassfish-resources.xml</file>
+            <file>file:/C:/Users/gonch/Documents/NetBeansProjects/Library/Library-ejb/src/java/com/library/facades/AuthorFacade.java</file>
+        </group>
+    </open-files>
+</project-private>
